@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div ng-controller="test">
+		<input type="button" value="-" ng-click="del()">
+		<input type="text" ng-model="num">
+		<input type="button" value="+" ng-click="add()">
+		<p>单价：99.9元</p>
+		<p>合计：{{sum}}元</p>
+	</div>
+	<script src="./node_modules/angular/angular.min.js"></script>
+	<script src="./jquery-2.1.1.min.js"></script>
+	<script src="./index.js"></script>
+</body>
+</html>
